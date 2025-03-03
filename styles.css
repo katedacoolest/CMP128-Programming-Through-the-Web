@@ -1,5 +1,8 @@
 body {
   background-color: lightBlue;
   color: black;
-  
     }
+
+#myButton {
+  color: black;
+}
