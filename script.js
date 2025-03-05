@@ -2,8 +2,10 @@ let quotes = {"Nothing is impossible, the word itself says 'I'm possible': Audre
 
 function newQuote(){
   let randomQuote= Math.floor(Math.random()*quotes.length);
-
-console.log(quotes[randomQuote]);
+  let myQuote = quotes[randomQuoteIndex];
+  let quoteDivElement = document.getElementById("myQuote")
+  quoteDiveElement.innerHTML=myQuote;
+//console.log(quotes[randomQuote]);
 
 }
 
