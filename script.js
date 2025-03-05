@@ -25,7 +25,5 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     if (name && email && msg) {
         alert("Thank you for your message, " + name + "!");
     } else {
-        alert("Please fill in all fields.");
-    }
-    document.getElementById("contactForm").reset();
-});
+        alert("Please fill in all fields.")
+    } ;
