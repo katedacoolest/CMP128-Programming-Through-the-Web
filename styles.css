@@ -21,20 +21,3 @@ footer{
   border: 2px solidBlack;
 }
 
-@media screen and (max-width: 481px){
- body {
-   background-color: purple;
- }
-}
-
-@media screen and (max-width: 960px){
- body {
-   background-color: green;
- }
-}
-
-@media screen and (max-width: 961px){
- body { background-color: red;
-  }
-}
-
