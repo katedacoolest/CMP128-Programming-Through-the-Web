@@ -15,3 +15,8 @@ button {
   justify-content: center; 
   height: 100vh; 
 }
+
+footer{
+  display: flex; 
+  border: 2px solidBlack;
+}
