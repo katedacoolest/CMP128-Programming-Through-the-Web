@@ -3,7 +3,7 @@ let quotes = {"Nothing is impossible, the word itself says 'I'm possible': Audre
 function newQuote(){
   let randomQuote= Math.floor(Math.random()*quotes.length);
 
-console.log(quotes[]);
+console.log(quotes[randomQuote]);
 
 }
 
