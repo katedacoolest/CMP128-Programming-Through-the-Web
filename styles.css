@@ -22,14 +22,19 @@ footer{
 }
 
 @media screen and (max-width: 481px){
-  background-color: purple;
+ body {
+   background-color: purple;
+ }
 }
 
 @media screen and (max-width: 960px){
-  background-color: green;
+ body {
+   background-color: green;
+ }
 }
 
 @media screen and (max-width: 961px){
-  background-color: red;
+ body { background-color: red;
+  }
 }
 
