@@ -4,7 +4,7 @@ function newQuote(){
   let randomQuote= Math.floor(Math.random()*quotes.length);
   let myQuote = quotes[randomQuote];
   let quoteDivElement = document.getElementById("myQuote")
-  quoteDiveElement.innerHTML=myQuote;
+  quoteDivElement.innerHTML=myQuote;
 //console.log(quotes[randomQuote]);
 
 }
