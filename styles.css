@@ -6,3 +6,7 @@ body {
 #myButton {
   color: black;
 }
+
+#infoBox {
+  display: flex;
+}
