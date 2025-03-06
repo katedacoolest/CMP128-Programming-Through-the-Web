@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #b0b0b0;
+    background-color: #001f3d;
     color: #fff;
     padding: 20px;
     margin-bottom: 20px;
@@ -39,7 +39,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #b0b0b0;
+    color: #001f3d;
     font-size: 18px;
     font-weight: bold;
     transition: color 0.3s;
@@ -102,7 +102,7 @@ textarea {
 }
 
 button {
-    background-color: #b0b0b0;
+    background-color: #888;
     color: white;
     padding: 12px 20px;
     font-size: 18px;
@@ -113,7 +113,7 @@ button {
 }
 
 button:hover {
-    background-color: #888;
+    background-color: #555;
 }
 
 .quoteCon {
@@ -126,7 +126,7 @@ button:hover {
 
 #myQuote {
     background-color: #f4f4f4;
-    border-left: 5px solid #b0b0b0;
+    border-left: 5px solid #001f3d;
     font-style: italic;
     padding: 20px;
     font-size: 1.5em;
