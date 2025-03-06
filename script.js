@@ -21,9 +21,10 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     const email = document.getElementById("email").value;
     const msg = document.getElementById("msg").value;
 
-   
     if (name && email && msg) {
         alert("Thank you for your message, " + name + "!");
     } else {
-        alert("Please fill in all fields.")
-    } ;
+        alert("Please fill in all fields.");
+    }
+});
+
