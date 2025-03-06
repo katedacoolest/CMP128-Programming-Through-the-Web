@@ -10,7 +10,7 @@
     <header>
         <h1>Web Development Exercises</h1>
     </header>
-
+    
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -21,7 +21,71 @@
         </ul>
     </nav>
 
-   
+    <section>
+        <p>This page is designed to help you practice the basics of Web Development. Below are exercises for each topic:</p>
+        <ul>
+            <li>
+                <h2>Using CSS</h2>
+                <p>Learn how to style websites using CSS for layout, colors, fonts, and more.</p>
+                <div class="css-example">
+                    <p class="styled-text">This text is styled using CSS.</p>
+                    <style>
+                        .styled-text {
+                            font-size: 24px;
+                            color: #003366;
+                            font-weight: bold;
+                        }
+                    </style>
+                </div>
+            </li>
 
+            <li>
+                <h2>Creating Simple Forms</h2>
+                <p>Understand how to create and process forms to collect user input.</p>
+                <div class="form-example">
+                    <form action="submitForm.html" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <br><br>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                        <br><br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </li>
+
+            <li>
+                <h2>Using JavaScript</h2>
+                <p>Get familiar with JavaScript to add interactivity to web pages.</p>
+                <div class="js-example">
+                    <p>Click the button to display an alert:</p>
+                    <button onclick="showAlert()">Click Me</button>
+
+                    <script>
+                        function showAlert() {
+                            alert("Hello! This is a JavaScript alert.");
+                        }
+                    </script>
+                </div>
+            </li>
+
+            <li>
+                <h2>Creating New Pages</h2>
+                <p>Learn how to create and link different pages for a complete website.</p>
+                <div class="new-page-example">
+                    <p>Here is a link to another page on this website:</p>
+                    <a href="newpage.html">Go to the New Page</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Created by Katelyn Shoy</p>
+    </footer>
 </body>
 </html>
