@@ -97,6 +97,10 @@ input:focus, textarea:focus {
     background-color: #fff;
 }
 
+ul li{
+    font-weight: bold;
+}
+
 textarea {
     height: 150px;
     resize: none;
